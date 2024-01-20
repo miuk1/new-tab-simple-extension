@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Simple Extension",
+    "version": "1.0",
+    "description": "A simple extension that opens a new tab",
+    "icons": {
+      "48": "icon.svg"
+    },
+    "browser_action": {
+      "default_icon": {
+        "48": "icon.svg"
+      },
+      "default_title": "Open New Tab",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["tabs"]
+  }
+  
